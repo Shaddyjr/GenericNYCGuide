@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GenericNYCGuide</string>
+
+    <string name="category_shops_title">shops</string>
+    <string name="category_events_title">events</string>
+    <string name="category_foods_title">foods</string>
+    <string name="category_sites_title">sites</string>
+</resources>
