@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -29,9 +30,9 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         final Location location = getItem(position);
 
-        // setting background image
-        RelativeLayout relativeLayout = convertView.findViewById(R.id.list_item_container);
-        relativeLayout.setBackgroundResource(location.getImageResourceID());
+        // setting location content
+        ImageView imageView = convertView.findViewById(R.id.list_item_image);
+        imageView.setImageResource(location.getImageResourceID());
 
         TextView textView = convertView.findViewById(R.id.list_item_text);
         textView.setText(location.getName());
