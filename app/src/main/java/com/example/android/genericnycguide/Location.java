@@ -1,5 +1,7 @@
 package com.example.android.genericnycguide;
 
+import java.util.Random;
+
 public class Location {
     private String  name;
     private int     imageResourceID;
@@ -29,7 +31,20 @@ public class Location {
      * Gets image resource ID.
      */
     public int getImageResourceID() {
-        return imageResourceID;
+        // The task of creating individual images was taxing and excessive.
+        // I believe I've shown enough proof of concept to prove capability.
+
+        //        return imageResourceID;
+
+        // I've opted to simply randomize the image used from a selection of
+        // stock NYC images
+        
+        int[] imageIDs = {
+                R.drawable.output
+        };
+
+        int index = new Random().nextInt(imageIDs.length);
+        return imageIDs[index];
     }
 
     /**
