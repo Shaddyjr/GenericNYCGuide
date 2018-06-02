@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
     style="@style/base">
 
     <LinearLayout style="@style/base_wrap_height.vertical">
@@ -8,26 +10,36 @@
 
             <ImageView
                 android:id="@+id/image"
-                style="@style/base_wrap_height" />
+                style="@style/base_wrap_height.fullImage"
+                tools:src="@drawable/nyc_1"
+                />
 
             <TextView
                 android:id="@+id/name"
-                style="@style/base_double_wrap.fullActivityTitle"/>
+                style="@style/base_double_wrap.fullActivityTitle"
+                tools:text="asdfasdfas asdf sfdaf"
+                />
         </RelativeLayout>
 
-        <LinearLayout style="@style/base_wrap_height.vertical">
+        <LinearLayout style="@style/base_wrap_height.vertical.fullText">
 
             <TextView
                 android:id="@+id/address"
-                style="@style/base_double_wrap" />
+                style="@style/base_double_wrap.address"
+                tools:text="address infor 234"
+                />
 
             <TextView
                 android:id="@+id/time"
-                style="@style/base_double_wrap" />
+                style="@style/base_double_wrap.time"
+                tools:text="monday aug 3, 2194"
+                />
 
             <TextView
                 android:id="@+id/description"
-                style="@style/base_double_wrap" />
+                style="@style/base_double_wrap.description"
+                tools:text="asdfaslonapfn pnasjnf pasjnd   apksijdnfp asnj fpajsnfpajnspfnj4"
+                />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

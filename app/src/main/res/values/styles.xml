@@ -90,5 +90,37 @@
     <!--Full Activity-->
     <style name="base_double_wrap.fullActivityTitle">
         <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/colorAccent2</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+    <style name="base_wrap_height.vertical.fullText">
+        <item name="android:padding">16dp</item>
+        <item name="android:shadowColor">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="base_wrap_height.fullImage">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="base_double_wrap.address">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="base_double_wrap.time">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="base_double_wrap.description">
+        <item name="android:textSize">24sp</item>
     </style>
 </resources>
