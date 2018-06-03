@@ -10,21 +10,15 @@ public class Location {
     private String  locationType;
     private String  time = "";
 
-    public Location(String name,String address,String description,String locationType,int imageResourceID) {
-        this.name             = name;
-        this.address          = address;
-        this.description      = description;
+    Location(String[] locationArray,String locationType,int imageResourceID) {
+        this.name             = locationArray[0];
+        this.address          = locationArray[1];
+        this.description      = locationArray[2];
         this.locationType     = locationType;
         this.imageResourceID  = imageResourceID;
-    }
-
-    public Location(String name,String address,String description, String time, String locationType,int imageResourceID) {
-        this.name             = name;
-        this.address          = address;
-        this.description      = description;
-        this.locationType     = locationType;
-        this.time             = time;
-        this.imageResourceID  = imageResourceID;
+        if(locationArray.length>3){
+            this.time = locationArray[3];
+        }
     }
 
     /**
@@ -38,7 +32,7 @@ public class Location {
 
         // I've opted to simply randomize the image used from a selection of
         // stock NYC images
-        
+
         int[] imageIDs = {
                 R.drawable.output
         };

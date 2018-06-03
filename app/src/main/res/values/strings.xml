@@ -5,4 +5,384 @@
     <string name="category_events_title">events</string>
     <string name="category_foods_title">foods</string>
     <string name="category_sites_title">sites</string>
+
+    <string name="event">event</string>
+    <string name="shop">shop</string>
+    <string name="site">site</string>
+    <string name="food">food</string>
+
+    <!--INTENT VARIABLES-->
+    <string name="name">name</string>
+    <string name="imageResourceID">imageResourceID</string>
+    <string name="address">address</string>
+    <string name="description">description</string>
+    <string name="locationType">locationType</string>
+    <string name="time">time</string>
+
+    <!--EVENTS-->
+    <string-array name="Free">
+        <item>"Free Kayaking at Brooklyn Bridge Park"</item>
+        <item>"Pier 2, Brooklyn Bridge Park"</item>
+        <item>"Welcome warmer weather with a free kayaking session on the East River and explore your wet and wild side."</item>
+        <item>"Jun 02, 10:00 AM — Aug 26, 3:00 PM"</item>
+    </string-array>
+    <string-array name="Party">
+        <item>"Party Like It’s 1999: The Summer #1s of the 90s Edition"</item>
+        <item>"The Bell House"</item>
+        <item>"Get down to the hottest songs of the 1990s, with “Waterfalls,” “Baby Got Back,” “Genie in a Bottle,” “California Love,” and more keeping the good times going all night long."</item>
+        <item>"Jun 02, 10:00 PM — Jun 03, 1:00 AM"</item>
+    </string-array>
+    <string-array name="Discovery">
+        <item>"Discovery Day at Freshkills Park"</item>
+        <item>"Freshkills Park"</item>
+        <item>"Staten Island's Freshkills Park is still being developed, but you can check out its progress with a full day of activities that include photography, bicycling, kite-flying, tours, and more."</item>
+        <item>"June 03, 11:00 AM — 4:00 PM"</item>
+    </string-array>
+    <string-array name="Museum">
+        <item>"Museum Mile Festival"</item>
+        <item>"Fifth Ave between 82nd and 105th streets"</item>
+        <item>"For three hours, seven of the city’s museums along Fifth Avenue will open their doors for New Yorkers to get cultured without spending a dime."</item>
+        <item>"June 12, 6:00 PM — 9:00 PM"</item>
+    </string-array>
+    <string-array name="Pitbull">
+        <item>"Pitbull at GMA’s Summer Concert Series"</item>
+        <item>"Rumsey Playfield"</item>
+        <item>"See Mr. Worldwide in the heart of NYC before you even go to work and prepare to shake what your mama gave you."</item>
+        <item>"June 15, 7:00 AM — 9:00 AM"</item>
+    </string-array>
+    <string-array name="The">
+        <item>"The 36th Annual Mermaid Parade"</item>
+        <item>"Coney Island"</item>
+        <item>"Mermaids will take over the streets of Coney Island for the 35th year of the country’s largest art parade. Start planning your under-the-sea outfits now"</item>
+        <item>"June 16, 1:00 PM — 5:00 PM"</item>
+    </string-array>
+    <string-array name="Egg">
+        <item>"Egg Rolls, Egg Creams &amp; Empanadas Festival"</item>
+        <item>"Museum at Eldridge Street"</item>
+        <item>"Head to this free multicultural fest that celebrates Jewish, Chinese, and Puerto Rican culture with a day of food and street performances."</item>
+        <item>"June 17, 12:00 PM — 4:00 PM"</item>
+    </string-array>
+    <string-array name="Bryant">
+        <item>"Bryant Park Yoga with Dan Nevins"</item>
+        <item>"The Lawn"</item>
+        <item>"Get your zen on in the heart of Midtown at an hour-long yoga class presented by KeVita."</item>
+        <item>"June 21, 6:00 PM — 7:00 PM"</item>
+    </string-array>
+    <string-array name="FIGMENT">
+        <item>"FIGMENT NYC"</item>
+        <item>"Colonels Row"</item>
+        <item>"Take your imagination and hop aboard the ferry to Governor’s Island for a weekend of collaborative art projects that are all free."</item>
+        <item>"Jun 23, 10:00 AM — Jun 24, 6:00 PM"</item>
+    </string-array>
+    <string-array name="PrideFest">
+        <item>"PrideFest"</item>
+        <item>"University Place between 13th Street &amp; Waverly Place"</item>
+        <item>"Help celebrate the 25th anniversary of this epic LGBT street festival that features performances, vendors, and tons of activities all in honor of love and equality."</item>
+        <item>"June 24, 11:00 AM — 6:00 PM"</item>
+    </string-array>
+    <string-array name="Titanic">
+        <item>"Titanic: Free Screening at Brooklyn Bazaar"</item>
+        <item>"Brooklyn Bazaar"</item>
+        <item>"Fall in love with Leonardo DiCaprio and Kate Winslet all over again as you watch this 1997 classic in Brooklyn Bazaar's Main Ballroom. Seating is first come, first served, so arrive early!"</item>
+        <item>"June 27, 8:00 PM — 11:00 PM"</item>
+    </string-array>
+    <string-array name="Nathans">
+        <item>"Nathan’s Famous 2018 Hot Dog Eating Contest"</item>
+        <item>"Nathan's Famous, Coney Island"</item>
+        <item>"Why watch the meaty action on TV when you can see it in real life? Make the trip to Coney Island to see if defending champ Joey Chestnut can eat enough dogs to win yet another Mustard Belt."</item>
+        <item>"July 04, 12:00 PM — 2:00 PM"</item>
+    </string-array>
+    <string-array name="Backstreet">
+        <item>"Backstreet Boys at GMA’s Summer Concert Series"</item>
+        <item>"Rumsey Playfield"</item>
+        <item>"Backstreet's Back, alright! And this time, they're in the heart of Central Park as the guys start your Friday off with a free show that will rock your body right."</item>
+        <item>"July 13, 7:00 AM — 9:00 AM"</item>
+    </string-array>
+    <string-array name="FAD">
+        <item>"FAD Market: Summer Pop-up"</item>
+        <item>"The Invisible Dog Art Center"</item>
+        <item>"Browse the offerings from a rotation of 50 independent makers who will be showcasing their art, jewelry, apparel, bath and body care, tableware, and home furnishings."</item>
+        <item>"July 14, 11:00 AM — 6:00 PM"</item>
+    </string-array>
+    <string-array name="Shakespeare">
+        <item>"Shakespeare in the Park: Twelfth Night"</item>
+        <item>"The Delacorte Theater in Central Park"</item>
+        <item>"The popular Shakespeare in the Park series at Central Park’s Delacorte Theater continues with a production of Twelfth Night. Enter the lottery for your chance to score free tix!"</item>
+        <item>"Jul 17, 8:00 PM — Aug 19, 10:00 PM"</item>
+    </string-array>
+    <string-array name="NYC">
+        <item>"NYC Tasting at Ten"</item>
+        <item>"Counter Culture Coffee New York Training Center"</item>
+        <item>"Get your morning caffeine boost for free when you swing by this tasting that features a different coffee and brewing method each week."</item>
+        <item>"July 27, 10:00 AM — 11:00 AM"</item>
+    </string-array>
+    <string-array name="Karaoke">
+        <item>"Karaoke Happy Hour at Offside Tavern"</item>
+        <item>"Offside Tavern"</item>
+        <item>"Sing your heart out and snag a free shot if you're brave enough to sing with the DJ!"</item>
+        <item>"Aug 04, 9:30 PM — Aug 05, 4:00 AM"</item>
+    </string-array>
+    <string-array name="Meditation">
+        <item>"Meditation on the High Line"</item>
+        <item>"On the High Line at 22nd St."</item>
+        <item>"Kick off the day by focusing on your breath, high above the city's streets."</item>
+        <item>"August 14, 8:00 AM — 9:00 AM"</item>
+    </string-array>
+    <string-array name="Bar">
+        <item>"Bar None Comedy Show"</item>
+        <item>"Bar None"</item>
+        <item>"Some of the city’s best talent will showcase their latest routines at this free comedy show—and drinks will be priced two-for-one during the performance."</item>
+        <item>"August 19, 8:00 PM — 10:00 PM"</item>
+    </string-array>
+    <string-array name="NYRR">
+        <item>"NYRR Open Run"</item>
+        <item>"Astoria Park"</item>
+        <item>"You could spend your Saturday sleeping in. Or, you could get up and join this fun run like a total baller. We encourage you to choose the latter!"</item>
+        <item>"August 25, 9:00 AM — 10:00 AM"</item>
+    </string-array>
+    <!--END OF EVENTS-->
+
+    <!--SHOPS-->
+    <string-array name="Store">
+        <item>"180 The Store"</item>
+        <item>"180 Duane St., Tribeca, Manhattan "</item>
+        <item>"It’s difficult to put a label on what 180 The Store actually is. It bills itself as a “unique retail environment” where different brands come to host pop-up shops, presentations, installations and events. The offerings here are so varied, in fact, patrons can come in to shop for clothing, housewares, jewelry, beauty products and some leafy plants or succulents—all from one store. It’s sort of a small-scale, independent department store, which is what the owners were going for. Also worth noting: they promote young, up-and-coming talent who are new to the NYC scene."</item>
+    </string-array>
+    <string-array name="Bing">
+        <item>"Anine Bing"</item>
+        <item>"81 Greene St., Soho, Manhattan"</item>
+        <item>"Unlike its sister store on Bleecker Street, which is solely dedicated to black, white and gray neutral tones, the Soho Anine Bing shop introduces pops of color via the shoes and accessories lining its metal shelves. The brand calls itself a “fusion between Scandinavian heritage and American spirit” and includes everything from delicate silk camisoles and lingerie to motorcycle chic styles like leather biker jackets, ripped jeans and military jackets. The line also features shoes, jewelry and other accessories."</item>
+    </string-array>
+    <string-array name="Veneta">
+        <item>"Bottega Veneta"</item>
+        <item>"740 Madison Ave., Midtown East, Manhattan"</item>
+        <item>"Bottega Veneta’s New York City flagship store takes up three landmark 19th-century townhouses, covering five floors and nearly 15,000 square feet, and is appropriately known as “Maison.” Throughout floors one to four, expect to find the brand’s signature leather pieces, ready-to-wear, shoes, jewelry and accessories. Expect exclusive city-inspired accessories that you won’t find at the brand’s other locations. The fifth floor—known as “The Apartment”—is dedicated to Bottega Veneta’s home and furniture collection and has the feel of a private home, with rotating artwork for decor."</item>
+    </string-array>
+    <string-array name="Hatch">
+        <item>"Hatch"</item>
+        <item>"17 Bleecker St., Noho, Manhattan"</item>
+        <item>"Hatch is more than just maternity clothing; it’s maternity fashion. Founded in 2011 by Ariane Goldman who, after working on Wall Street, saw a void in this area of women’s wear. The brand focuses on clothing for “before, during and after” pregnancy, helping moms to navigate the fashion world with their changing bodies. In addition to selling their popular clothing and accessories, the Noho store prides themselves on being very community-driven, hosting events like a Mother’s Day celebration, chats with experts and inspiring panel discussions."</item>
+    </string-array>
+    <string-array name="Gavriel">
+        <item>"Mansur Gavriel"</item>
+        <item>"620 Madison Ave., Midtown East, Manhattan"</item>
+        <item>"It’s hard to miss a Mansur Gavriel store—all of them clad in bubblegum pink from top to bottom. And this Midtown East location is no exception. The airy shop, with high ceilings and large, light-filled windows, looks extremely inviting on its Midtown corner. Inside, shoppers will find a neatly organized selection of the Italian company’s ready-to-wear clothing, shoes, bags and other accessories for women, all courtesy of owners Rachel Mansur and Floriana Gavriel, who founded the brand in 2012."</item>
+    </string-array>
+    <string-array name="Konekt">
+        <item>"Konekt"</item>
+        <item>"41 Elizabeth St., Chinatown"</item>
+        <item>"The furniture pieces at Konekt are so stunning they resemble works of art. The company prides itself on taking a modern approach to building while maintaining centuries-old techniques to ensure the highest quality products. Konekt—which was founded by a mother and daughter in 2015—uses natural materials to produce furniture that engages the senses, and embodies all the imperfections and beauty that nature intended. Each piece is made to order by craftsmen and artisans working in Pennsylvania."</item>
+    </string-array>
+    <string-array name="RealReal">
+        <item>"The RealReal"</item>
+        <item>"80 Wooster St., Soho"</item>
+        <item>"Luxury comes at a price that can be prohibitive. If your pockets are not as deep as your high-end tastes, you may be The RealReal’s target customer. This Soho shop is the brick-and-mortar manifestation of its namesake e-retailer’s highly successful online shop, which sells secondhand luxury items including jewelry, clothes, handbags, accessories, furniture and art. You can find premium brands from A.P.C. to Zac Posen, and on-staff authenticators ensure that what you see is what you get. While listings are more affordable than the original price, this still doesn’t qualify as bargain shopping.  ",</item>
+    </string-array>
+    <string-array name="Sézane">
+        <item>"Sézane"</item>
+        <item>"254 Elizabeth., Nolita"</item>
+        <item>"Parisian brand Sézane is known for its chic, affordable clothing and accessories, and now NYC is lucky enough to have the first US outpost of this beloved company. The artfully designed NoLIta store carries all the fashion fans love, including women’s clothing, shoes, jewelry and accessories. There are also home goods on hand, such as coffee-table books and decorative candles. And the warmth and welcoming vibe of the store extends to the gracious service offered by the staff."</item>
+    </string-array>
+    <string-array name="Totokaelo">
+        <item>"Totokaelo"</item>
+        <item>"190 Bowery., Nolita"</item>
+        <item>"The architecture and design of Totokaelo’s new NYC store are striking. Located in a former turn-of-the-century bank building with vaulted dressing rooms, its large arched windows and abundant natural light make for a lovely shopping experience. And the multilevel space means there’s plenty of menswear and women’s clothing to choose from. The store carries brands such as Jill Sander, Rachel Comey, Issey Miyake, Calvin Klein and Acme. Customer service is also a priority here, and the thoughtful layout means you’ll never encounter huge crowds."</item>
+    </string-array>
+    <string-array name="Upton">
+        <item>"Upton"</item>
+        <item>"224 Mulberry St., Nolita"</item>
+        <item>"High-end leather goods maker Upton is known for belts—made in Texas from American leather tanned in Italy—and other small leather items. Their belts are handmade and numbered, offering a most luxurious and personalized shopping experience for those who can afford it. Though they are typically an online presence, they opened this NoLIta pop-up shop in order to give customers a face-to-face experience, and also to collaborate with other brands every few weeks to offer up a different selection of goods in what they call The Collective."</item>
+    </string-array>
+    <string-array name="AllSaints">
+        <item>"AllSaints"</item>
+        <item>"636 Fifth Ave., Midtown, Manhattan"</item>
+        <item>"British fashion retailer AllSaints is known for its biker jackets, knits and premium leather goods, but you’ll find much more at its Rockefeller Center store—the newest of the import’s three Manhattan locations. Shop signature ready-to-wear lines for men and women along with jewelry and accessories, assisted by the stellar customer service for which the brand is known."</item>
+    </string-array>
+    <string-array name="Century">
+        <item>"Next Century"</item>
+        <item>"21 Dey St., Lower Manhattan"</item>
+        <item>"The owners of mega department store Century 21 have opened Next Century adjacent to their downtown location, offering a carefully curated selection of clothing and accessories. The assortment of items from up-and-coming designers is aimed at the younger set—particularly millennials—who can also sort through back stock of established labels and vintage pieces (including finds from upscale brands like Fendi, Balenciaga and Dior). Take time out from shopping to pamper yourself at the in-house nail bar and matcha café. ",</item>
+    </string-array>
+    <string-array name="Supreme">
+        <item>"Supreme"</item>
+        <item>"152 Grand St., Bedford-Stuyvesant, Brooklyn"</item>
+        <item>"A giant skate bowl dominates this skateboarding brand’s retail shop, where in addition to testing out your skills you can purchase boards, accessories, clothing, hats and shoes. Supreme offers its own line of merchandise but has partnered with brands like Hanes, Timberland and Polartec to bring customers affordable options. On the higher end of things, look for a capsule collection collaboration between Supreme and Louis Vuitton."</item>
+    </string-array>
+    <string-array name="Webster">
+        <item>"The Webster"</item>
+        <item>"29 Greene St., Soho, Manhattan"</item>
+        <item>"Miami-based luxury boutique The Webster opened this Soho space—its fifth retail store—after building out a six-story cast-iron structure on Greene Street. The sparsely stocked but artistically designed shop carries women’s and men’s clothing and accessories from Alexander Wang, Givenchy, Eddie Borgo, Proenza Schouler, Gucci, Valentino, Stella McCartney and many others. Shoes, jewelry, children’s clothing, home furnishings, a shoe salon and a hair salon round out the list."</item>
+    </string-array>
+    <string-array name="Alumnae">
+        <item>"Alumnae"</item>
+        <item>"60 Hudson St., Tribeca, Manhattan​"</item>
+        <item>"The name Alumnae is a cheeky nod to the fact that co-founders Kari Sigerson and Eliza Axelson-Chidsey matriculated from women’s luxury shoe brand Sigerson Morrison, perhaps most famous for its gladiator sandal and Sex and the City appearances. This new line takes a step away from its predecessor by being more subdued. The shoes are well crafted, impeccably made and the designs lean classically cool—so much so that even when they get a bit a kooky, they remain tasteful.   ",</item>
+    </string-array>
+    <string-array name="Boutique">
+        <item>"Dior Beauty Boutique"</item>
+        <item>"185 Greenwich St., Lower Manhattan, Manhattan"</item>
+        <item>"The beauty (pun intended) of this conceptual makeup boutique, the first from Dior in NYC, is its innovative approach to cosmetics. In a space meant to evoke the ambiance of backstage at a fashion show, shoppers can peruse an assortment of lipsticks, nail lacquers, mascaras and facial products. Also, there are six workstations staffed by pros, where visitors can have their lashes and brows transformed. There's a high-tech Mix &amp; Match display, featuring a model whose lip and nail color will change just by placing the product on the tabletop. A small section is dedicated to fragrances, with Dior’s most recognized and coveted scents."</item>
+    </string-array>
+    <string-array name="Connexion">
+        <item>"Faith Connexion"</item>
+        <item>"27 Mercer St., Soho, Manhattan"</item>
+        <item>"How to define the Faith Connexion brand, which defies conventional labels? Think punk—specifically of the art school variety—mixed with high-end runway fashion, ritzy glam rock and the downtown feel of every urbane “it” city from Berlin to Vancouver. This New York City shop is the local flagship store for the Paris-based label. The store itself has a fairly downplayed cool vibe, with minimal decorative distractions to take away from the clothes-as-centerpiece concept."</item>
+    </string-array>
+    <string-array name="Intimissimi">
+        <item>"Intimissimi"</item>
+        <item>"601 Fifth Ave., Midtown, Manhattan"</item>
+        <item>"It’s no secret (wink) which company dominates the intimate apparel market in the US, but Intimissimi is out to change the game. The Italian label offers undergarments, swimwear and lingerie like its primary competitor, but often using more sumptuous materials and with an emphasis on classic elegance. Not to worry, though, the prices are fully compatible. And their spacious New York City flagship in Midtown is stocked with endless choices.   ",</item>
+    </string-array>
+    <string-array name="Krewe">
+        <item>"Krewe"</item>
+        <item>"39 Crosby St., Soho, Manhattan"</item>
+        <item>"If eyes are the windows to the soul, then Krewe is where to pick up the best window dressings. This Soho shop is just the third permanent location opened by this New Orleans–based purveyor of stylish frames. The interior has a hushed beauty: bare white walls mixed with exposed brick, huge windows and potted foliage interspersed here and there. It’s worth mentioning that every unique design—collection names include Stella, Cool Cat and Shuck Yeah—is crafted from a plant-based acetate."</item>
+    </string-array>
+    <string-array name="Pretty">
+        <item>"Spark Pretty"</item>
+        <item>"333 E. 9th St., East Village, Manhattan"</item>
+        <item>"Spark Pretty founder Amanda Dolan worked as a stylist for Betsey Johnson for several years, with some very obvious overlaps in the two fashion mavens’ stylistic visions. But Dolan also has her own outlook clearly reflected in her shop’s collection of vintage designs from around the world. The retro emphasis is on the 1980s and '90s, with popping colors and electro-vibrancy dominating the aesthetic feel. There’s also a collection of original designs created in-house with the same ultra-vivid flair. If this all sounds overwhelming, Dolan and her team are happy to offer advice to customers, and you can even schedule a one-on-one guided shopping experience."</item>
+    </string-array>
+    <string-array name="Lou">
+        <item>"Alison Lou"</item>
+        <item>"20 East 69th St., Upper East Side, Manhattan​"</item>
+        <item>"Jewelry designer Alison Chemla is the creative director and designer behind this brand, which features contemporary fine jewelry that often includes the latest trends, such as emoticons and other pop-culture influences. Her designs include a large selection of smiley faces, rings with “Mrs.” spelled out on them (insert your own initial following) and simpler, more timeless designs. The cheeky, of-the-minute jewelry line is all presented inside a cozy, elegant and simply designed Upper East Side store. ",</item>
+    </string-array>
+    <string-array name="Balenciaga">
+        <item>"Balenciaga"</item>
+        <item>"840 Madison Ave., Upper East Side, Manhattan"</item>
+        <item>"French luxury brand Balenciaga—known for its chic, ready-to-wear designer fashions for men and women—has opened a flagship Madison Avenue store, its third Manhattan shop (there are two in Soho). The 1,800-square-foot industrial space—made from concrete and glass, with the brand’s name stamped into the flooring—carries men’s and women’s clothing and accessories. Clothes hang from racks suspended in a ceiling that’s covered in foil, fitting rooms are covered in silicone and aluminum display tables are spread throughout, giving the space a minimalist, sleek aesthetic."</item>
+    </string-array>
+    <!--END OF SHOPS-->
+
+    <!--SITES-->
+    <string-array name="FrauncesTavern">
+        <item>"Fraunces Tavern"</item>
+        <item>"54 Pearl St."</item>
+        <item>"Where it gets its name: Named for Samuel Fraunces, who owned and operated the place as the Queen’s Head Tavern during the 18th century and who was later President Washington’s chief steward. What it was before: Throughout most of the 19th century, the main building was used as a boardinghouse; it was rescued from demolition in the early 1900s and largely reconstructed in 1907. Why it’s notable: In one of the tavern’s rooms, George Washington bade a postwar farewell to his fellow officers; it also served as a meeting place for Revolutionaries before and during the war. What it is now: Part museum and part drinking establishment, Fraunces Tavern has numerous places to sit for a pint and a pot pie. Though little of the original structure remains, the reconstructed corner building celebrates its history through portraits of Washington, early American flags and other mementos. Fast fact: A tavern menu from 1914 shows an order of broiled lamb chops to cost 75 cents, a slice of huckleberry pie 15 cents and a glass of Ruppert’s Knickerbocker beer—a popular quaff of the times—10 cents."</item>
+    </string-array>
+    <string-array name="BowlingGreen">
+        <item>"Bowling Green"</item>
+        <item>"Whitehall Street and Broadway"</item>
+        <item>"Where it gets its name: The park originally had a “bowling green,” or green space where the game “bowls” or “squares” would be played. What it was before: Parade ground, marketplace and supposedly the site where Peter Minuit purchased the land of Manhattan from Native Americans. Why it’s notable: Part of its iron fence, which dates back to 1771 and once served to protect an equestrian statue of King George, remains intact. The statue, on the other hand, was toppled at beginning of the Revolution; find a painting of that rebellious event—and soon a re-creation of the piece itself—at the New-York Historical Society. What it is now: A public park—the oldest in the City—with a fountain at its center. Fast fact: The bronze Charging Bull statue was originally dropped off underneath a downtown Christmas tree Mission Impossible–style, before finding its permanent Bowling Green home."</item>
+    </string-array>
+    <string-array name="WallStreet">
+        <item>"Wall Street"</item>
+        <item>"Wall Street"</item>
+        <item>"Where it gets its name: From the wall that was erected here by the Dutch in the mid-1600s to mark the northern boundary of their settlement. Walk along the center of the cobblestone block of Wall Street between: Broad and William Streets to see wooden inlays indicating where posts of the original wall used to stand. What it was: before The area once held a slave market. As the street developed, early buildings included Alexander Hamilton’s home and the City’s first bank. Why it’s notable You: might have heard the moniker before: it’s synonymous with the US, and global, financial industry. What it: is now A narrow street lined by high-rise buildings that once held numerous banking headquarters; in actuality, few still call the place home. Some notable s include no. 40, a 70-story tower with a green pyramidal roof like that of the Woolworth Building, and no. 55, a squat, Greek Revival fortress that originally held the Merchants Exchange. Fast fact During the great Wall Street Crash of 1929, the stock market lost roughly a quarter of its value over just a few days."</item>
+    </string-array>
+    <string-array name="CastleClinton">
+        <item>"Castle Clinton"</item>
+        <item>"The Battery"</item>
+        <item>"Where it gets its name: From DeWitt Clinton, the early 19th-century mayor of New York City (as well as New York governor and failed Federalist presidential candidate). What it was before: A fort called Southwest Battery, which had successive stints as an immigration holding center, the New York City Aquarium, a restaurant and opera house. Why it’s notable: During the War of 1812, the fort—along with three others in the harbor—was heavily armed to protect against British naval advances. What it is now: The curved, sandstone building down in the Battery is the place to depart for ferries to the Statue of Liberty and Ellis Island; the National Parks Service which operates Castle Clinton, runs brief guided tours of the grounds. Fast fact: Despite its active presence during wartime, no shots were ever fired from, or on, Castle Clinton. "</item>
+    </string-array>
+    <string-array name="SchermerhornRow">
+        <item>"Schermerhorn Row"</item>
+        <item>"Schermerhorn"</item>
+        <item>"Where it gets its name: From businessman Peter Schermerhorn, a merchant and shipowner who built the the multiuse houses to facilitate the shipping trade. What it was before: Warehouses, hotels, saloons. Why it’s notable: The 14 red-brick warehouses on Front, Fulton, John and South Streets preserve Georgian-Federal architectural details increasingly rare in the redeveloped neighborhood. What it is now: It was remade as South Street Seaport Museum in the early 1990s, with a museum and spaces for events. Fast fact: Sweet’s Restaurant, at 2 and 4 Fulton, was the oldest seafood spot in the City until it closed in 1992, having been established by Abraham Sweet in 1842."</item>
+    </string-array>
+    <string-array name="FederalHall">
+        <item>"Federal Hall"</item>
+        <item>"26 Wall St."</item>
+        <item>"Where it gets its name: It was on this spot on Wall Street that the original Federal Hall, built in 1700 as a city hall and later serving as the nation’s initial capitol building, stood. What is was before: The same building once served as the US Customs House and US Sub-Treasury Building Why it’s notable: The site—though not this building—is where George Washington was sworn in as the first president of the United States. The current Greek revival temple, lined by Corinthian columns, bears some resemblance to its predecessor. What it is now: A National Parks Service–operated museum with artifacts like the bible Washington swore his oath on and memorabilia from the trial of John Peter Zenger, who dared to criticize the British royal governor of New York. Tours are available on weekdays. Fast fact: The bronze statue of Washington that fronts the building is 12 feet tall; a 2-foot cast of John Quincy Adams Ward’s sculpture can be found at the Met Fifth Avenue."</item>
+    </string-array>
+    <string-array name="TrinityChurch">
+        <item>"Trinity Church"</item>
+        <item>"75 Broadway"</item>
+        <item>"Where it gets its name: It’s a common name for churches the world over. What it was before: Two other Trinity Churches have stood here. One burned down during the Revolutionary War; the other was demolished in 1839 after weathering storm damage. Why it’s notable: The brownstone church was built with a spire whose cross topped out at 281 feet, a towering presence in the skyline in the mid-1800s—and much of the rest of that century. The churchyard cemetery, which predates the current church, holds the graves of Alexander Hamilton, Hamilton’s wife Elizabeth Schuyler, Declaration of Independence signer Francis Lewis and early publisher William Bradford.   What it is now: It remains an active Episcopal parish with daily services, though many come here for afternoon guided tours that point out architectural and historical elements of the church. Fast fact: Thanks to a land grant from Queen Anne in 1705, Trinity Church is one of NYC’s biggest landowners—its holdings were valued a couple of years back at $2 billion."</item>
+    </string-array>
+    <string-array name="IndiaHouse">
+        <item>"India House"</item>
+        <item>"One Hanover Square"</item>
+        <item>"Where it gets its name: To give the social club that took over in 1914 an air of exoticism and to recall colonial trade times. What it was before : The building has been home to Hanover Bank, the New York Cotton Exchange and the Haitian Consulate. Why it’s notable: Its brownstone-like facade, which looks like a classic New York City row house, and its collection of antiques. What it is now: A social club and maritime museum, but also the (basement) home to Harry’s Café &amp; Steak. Fast fact: Willard Straight, who helped found the club, purchased the property and donated much of the Asian art that was once on display, was one of the founders of left-leaning magazine New Republic."</item>
+    </string-array>
+    <string-array name="StockExchange">
+        <item>"New York Stock Exchange"</item>
+        <item>"8 Broad St."</item>
+        <item><![CDATA["Where it gets its name: The exchange dates back to the so-called Buttonwood Agreement from 1792, when a group of merchants met under a buttonwood tree and consented to deal with just one another and take fixed: commissions in deals; 25 years later an expanded group officially ratified itself as the New York Stock & Exchange Board. Where it was: before 40 Wall Street and 10–12 Broad Street. Why it’s notable More: shares are exchanged here than at any other market in the world. The current location is a columned temple with a classical frieze on its pediment where a central female figure, Integrity, is flanked by representations of industry and production.    What it: is now Still the floor where stocks are traded, but off-limits to public visitation since 9Ó11. Fast fact There are multiple stock exchanges in Lower Manhattan, including the Mercantile Exchange over in Brookfield Place and Nasdaq at One Liberty Plaza (see below)."]]></item>
+    </string-array>
+    <string-array name="CustomHouse">
+        <item>"Alexander Hamilton US Custom House"</item>
+        <item>"1 Bowling Green"</item>
+        <item>"Where it gets its name: From its time serving as the processing office for imported goods What it was before: The site was once home to Government House, a 1790 mansion that served as a tavern and customs house but lasted a mere 25 years. Why it’s notable: The Beaux-Arts building comes equipped with 44 columns and a rotunda. Adding to its classical exterior are the Daniel Chester French sculptures (representing the continents of America, Asia, Europe and Africa) and Cass Gilbert design; much of the ornamentation is done with a seafaring theme in mind. Bucking tradition, however, the custom house was built to face Bowling Green and other businesses, rather than ships coming in and out of the harbor. What it is now: It serves as the Smithsonian National Museum of the American Indian, home to nearly a million artifacts covering thousands of years of Native American history. Fast fact: Reginald Marsh’s exuberant murals that adorn the rotunda interior were commissioned as a TRAP–WPA project in 1937.   "</item>
+    </string-array>
+    <string-array name="InternationalBuilding">
+        <item>"American International Building"</item>
+        <item>"70 Pine St."</item>
+        <item>"Where it gets its name: Insurance giant AIG had its home here from 1976 to 2008. What it was before: 60 Wall Tower, Cities Services. Why it’s notable: This was the last skyscraper built in Lower Manhattan between the 1930s and the construction of the World Trade Center in the 1960s and early 1970s. It’s best appreciated from up high, where you can see the spiky, Gothic top, or from inside the lobby, which holds art deco detailing in the marble and elevator doors. It did once have a couple of unusual features as well: double-decker elevators, an observation deck and 15th-floor bridge to 60 Wall Street. One that remains can be seen at one of the building’s entrances—a detailed frieze that is a mini version of the entire building. What it is now: Luxury apartments. Fast fact: If you’ve got $3,358 a month to spare for a studio apartment, this could be your place."</item>
+    </string-array>
+    <string-array name="LibertyPlaza">
+        <item>"One Liberty Plaza"</item>
+        <item>"One Liberty Plaza"</item>
+        <item>"Where it gets its name: Liberty Street, which abuts the building, got its freedom-loving name in 1794 after the American Revolution (it was previously called Crown Street). What it was before: Originally known as the US Steel Building, which was constructed on the site of the Second Empire–styled Singer Building. Why it’s notable: One Liberty Plaza’s rectangular, monolithic steel frame calls to mind the style of the Twin Towers, perhaps not surprising as both developments were built around the same time. Interestingly enough, the architecture firm that designed it, Skidmore, Owings &amp; Merrill, is also responsible for the new One World Trade Center (see below). What it is now: Offices, including those of Goldman Sachs and Nasdaq. Fast fact: The adjacent Zuccotti Park, which was created as part of the deal for the building, became the main site of protest for the Occupy Wall Street Movement."</item>
+    </string-array>
+    <string-array name="NationalMonument">
+        <item>"African Burial Ground National Monument"</item>
+        <item>"290 Broadway"</item>
+        <item>"Date Monument established 2006, burial ground circa late 1600s to 1794 Where it gets its name: The area right by City Hall was used as a burial ground for the City’s African-American population, as blacks were not allowed to be interred in the original settled area of New Amsterdam:. Why it’s notable: The grounds were built over in the 1800s as the City pushed northward. In the 1990s, during construction of a federal building, workers found human remains—which led to the discovery and excavation of more than 400 bodies (they’ve since been reinterred). It has helped shine a light onto African-American heritage in early New York City.  What it is now: The monument for this site can be found at Duane and Elk Streets, next to the visitor center in the Ted Weiss Federal Building, which has displays about the burial ground’s history along with an educational film. Fast fact: Roughly around the time the burial ground's use ceased, free blacks and abolitionists were setting up the African Free School on Cliff Street to provide education for NYC's African-American youth."</item>
+    </string-array>
+    <string-array name="byGehry">
+        <item>"New York by Gehry"</item>
+        <item>"8 Spruce St."</item>
+        <item>"Where it gets its name: From its architect, Frank Gehry, who is one of the best–known designers of modern spaces. What it was before: A parking lot. Why it’s notable: Besides being one of the City’s tallest residential towers at 76 stories and having a design that suggests a building rippling in the wind, it helped punctuate Lower Manhattan’s post–9–11 comeback. Fast fact At the: base of the building is a New York City public school, PS 397, which has around 600 kids between pre-kindergarten and seventh grade.  285: Fulton St."</item>
+    </string-array>
+    <string-array name="TradeCenter">
+        <item>"One World Trade Center"</item>
+        <item>"One World Trade Center"</item>
+        <item>"Where it gets its name: The name and inspiration for the original World Trade Center dates back to an exhibit at the 1939 World’s Fair. The new centerpiece of the rebuilt World Trade Center had “Freedom Tower” as: its working title, for obvious reasons. It was renamed when the plan for the site and the building’s design changed. Why it’s notable: Aside from its symbolic associations, this glassy tower marks the latest stage in the refashioning of Lower Manhattan’s skyline. Crowned by an observatory from which you can see a country mile, One World Trade Center is the tallest building in the Western Hemisphere, thanks to a towering spire that elevates its height to 1,776 feet. What it is now: An office building and popular visitor destination. Fast fact: Though much of the attention is on the tower’s height, its lobby also stands out: among the pieces of art livening up the white marbled area is José Parlá’s splashy mural One: Union of the Senses, some 90 feet in length."</item>
+    </string-array>
+    <!--END OF SITES-->
+
+    <!--FOODS-->
+    <string-array name="Amada">
+        <item>"Amada"</item>
+        <item>"Brookfield Place, 250 Vesey St. Manhattan, NY, 10281"</item>
+        <item>"This tapas spot in Battery Park City comes courtesy of chef Jose Garces, who opened the restaurant’s first successful outpost in Philadelphia in 2005. Andalusian small plates (patatas bravas, lamb tartare, ham croquettes) headline the menu alongside house specialties like lobster paella and roasted suckling pig. Pair them with a Spanish wine, sangria or custom concoction from the gin-and-tonic bar."</item>
+    </string-array>
+    <string-array name="Augustine">
+        <item>"Augustine"</item>
+        <item>"5 Beekman St. Manhattan, NY, 10038"</item>
+        <item>"Keith McNally, the veteran restaurateur behind Minetta Tavern, Cherche Midi and Balthazar, knows what it takes to run a French brasserie in downtown Manhattan. Augustine, his latest venture, features vintage Parisian charm and a menu of impeccable French classics—Nicoise salad, duck à l’orange and steak frites among them."</item>
+    </string-array>
+    <string-array name="Cipriani">
+        <item>"Cipriani Wall Street"</item>
+        <item>"55 Wall St. Manhattan, NY, 10005"</item>
+        <item>"This restaurant, a downtown outpost of an NYC Italian dining empire, makes its home behind the towering columns of the landmarked National City Bank Building, which dates back to 1841. The menu is populated with the likes of grilled branzino, veal Milanese and ricotta ravioli, all worthy fare for a sophisticated business lunch or celebratory dinner. "</item>
+    </string-array>
+    <string-array name="Cut">
+        <item>"Cut by Wolfgang Puck"</item>
+        <item>"Four Seasons Hotel New York Downtown, enter at 99 Church St. Manhattan, NY, 10007"</item>
+        <item>"Behind its celebrity-chef name and swank location in the Four Seasons Hotel, Cut by Wolfgang Puck delivers where it matters most: on the menu. Enjoy modern, elegant steakhouse fare like grilled wagyu beef and roasted bone marrow, plus seafood and sashimi options, from the comfort of the dining room’s plush velvet seats."</item>
+    </string-array>
+    <string-array name="Delmonicos">
+        <item>"Delmonico’s Restaurant"</item>
+        <item>"56 Beaver St. Manhattan, NY, 10004"</item>
+        <item>"A meal at Delmonico’s has been a game changer since the steakhouse’s doors first opened in 1837. The restaurant invented dishes like chicken à la Keene (better known these days as à la king) and lobster Newberg, and still serves flawless versions along with other classics like whipped potatoes, creamed spinach and, naturally, steak. "</item>
+    </string-array>
+    <string-array name="Nobu">
+        <item>"Nobu Downtown"</item>
+        <item>"195 Broadway Manhattan, NY, 10007"</item>
+        <item>"After a recent relocation from Tribeca to the Financial District, Nobu remains a flagship of Japanese fine dining in the City. Sample “Nobu Classics” (rock shrimp tempura, black cod with miso) and “Nobu Now” (scallops with jalapeño salsa, uni yaki) under the dining room’s dramatic canopy ceiling."</item>
+    </string-array>
+    <string-array name="One">
+        <item>"One Dine"</item>
+        <item>"One World Trade Center, 285 Fulton St., 101st fl. Manhattan, NY, 10007"</item>
+        <item>"Plenty of NYC restaurants offer impressive views, but One Dine—situated on the 101st floor of One World Observatory—may take the prize for its unparalleled panorama. The sky-high bistro is a picturesque spot to enjoy a crispy chicken sandwich, Long Island duck or the OWO burger.  "</item>
+    </string-array>
+    <string-array name="Osteria">
+        <item>"Osteria della Pace"</item>
+        <item>"4 World Trade Center, 101 Liberty St., 3rd fl. Manhattan, NY, 10007"</item>
+        <item>"Colorful ceramic plates line the teal walls of this Southern Italian restaurant, located in Eataly NYC Downtown. Try the house-made taglietelle, oven-roasted sea bream or roast lamb loin with pomegranate reduction. "</item>
+    </string-array>
+    <string-array name="Schilling">
+        <item>"Schilling"</item>
+        <item>"109 Washington St. Manhattan, NY, 10006"</item>
+        <item>"This all-day bistro from Michelin-starred chef Eduard Frauneder specializes in Austrian fare with a Mediterranean twist. For example: wiener schnitzel is paired with cucumber salad and risotto comes with bass, chorizo and cockles. Inventive cocktails like the Ciao! Vienna (grappa, Disaronno and passionfruit) and Oaxaca smash (mezcal, vermouth, citrus and ginger) add to the appeal of the airy restaurant’s stylish back bar. "</item>
+    </string-array>
+    <string-array name="Temple">
+        <item>"Temple Court"</item>
+        <item>"5 Beekman St. Manhattan, NY, 10038"</item>
+        <item>"Celebrity chef Tom Colicchio’s newest establishment takes its name from the landmarked Temple Court building it occupies. The building, now home to the Beekman Hotel, retains some of its striking original finishes. Chef Bryan Hunt creates reinvigorated classics like chopped steak with hen-of-the-woods mushrooms, blue cheese and watercress; rabbit schnitzel with garlic confit; and diver scallops with leeks and black truffle vinaigrette."</item>
+    </string-array>
+    <!--END OF FOODS-->
 </resources>

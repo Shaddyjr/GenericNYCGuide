@@ -28,15 +28,15 @@ public class FullLocationActivity extends AppCompatActivity {
 
         // getting data
         mIntent = getIntent();
-        String location_name = mIntent.getStringExtra("name");
-        int location_imageResourceID = mIntent.getIntExtra("imageResourceID", -1);
-        String location_address = mIntent.getStringExtra("address");
-        String location_description = mIntent.getStringExtra("description");
-        String location_locationType = mIntent.getStringExtra("locationType");
+        String location_name = mIntent.getStringExtra(getString(R.string.name));
+        int location_imageResourceID = mIntent.getIntExtra(getString(R.string.imageResourceID), -1);
+        String location_address = mIntent.getStringExtra(getString(R.string.address));
+        String location_description = mIntent.getStringExtra(getString(R.string.description));
+        String location_locationType = mIntent.getStringExtra(getString(R.string.locationType));
 
         String location_time = null;
-        if(getIntent().hasExtra("time")){
-            location_time = mIntent.getStringExtra("time");
+        if(getIntent().hasExtra(getString(R.string.time))){
+            location_time = mIntent.getStringExtra(getString(R.string.time));
         }
 
         // setting up xml elements

@@ -2,6 +2,7 @@ package com.example.android.genericnycguide;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -15,7 +16,7 @@ import java.util.ArrayList;
 
 public class LocationAdapter extends ArrayAdapter<Location> {
     // had to change context to Activity
-    public LocationAdapter(Activity context, ArrayList<Location> locations) {
+    LocationAdapter(Activity context, ArrayList<Location> locations) {
         // hacking super
         super(context, 0, locations);
     }
@@ -36,19 +37,20 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         TextView textView = convertView.findViewById(R.id.list_item_text);
         textView.setText(location.getName());
 
+        final Resources res = getContext().getResources();
         convertView.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getContext(), FullLocationActivity.class);
 
-                intent.putExtra("name",location.getName());
-                intent.putExtra("imageResourceID",location.getImageResourceID());
-                intent.putExtra("address",location.getAddress());
-                intent.putExtra("description",location.getDescription());
-                intent.putExtra("locationType",location.getLocationType());
+                intent.putExtra(res.getString(R.string.name),location.getName());
+                intent.putExtra(res.getString(R.string.imageResourceID),location.getImageResourceID());
+                intent.putExtra(res.getString(R.string.address),location.getAddress());
+                intent.putExtra(res.getString(R.string.description),location.getDescription());
+                intent.putExtra(res.getString(R.string.locationType),location.getLocationType());
 
                 if(location.hasTime()){
-                    intent.putExtra("time",location.getTime());
+                    intent.putExtra(res.getString(R.string.time),location.getTime());
                 }
 
                 getContext().startActivity(intent);
