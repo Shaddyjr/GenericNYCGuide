@@ -23,8 +23,7 @@ public class FoodsFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
         Resources res = getResources();
         locations.add(new Location(res.getStringArray(R.array.Amada),getString(R.string.food),R.drawable.output));

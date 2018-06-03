@@ -3,6 +3,10 @@ package com.example.android.genericnycguide;
 import java.util.Random;
 
 public class Location {
+    static private int NUMBER_OF_IMAGES = 22;
+    private int[] imageIDs = new int[NUMBER_OF_IMAGES];
+    private String packageName = MainActivity.MAIN_CONTEXT.getPackageName();
+
     private String  name;
     private int     imageResourceID;
     private String  address;

@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/image"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:id="@+id/name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true" />
-    </RelativeLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/address"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:id="@+id/time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:id="@+id/description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/base">
+
+    <LinearLayout style="@style/base_wrap_height.vertical">
+
+        <RelativeLayout style="@style/base_wrap_height">
+
+            <ImageView
+                android:id="@+id/image"
+                style="@style/base_wrap_height.fullImage"
+                tools:src="@drawable/nyc_1"
+                />
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/base_double_wrap.fullActivityTitle"
+                tools:text="asdfasdfas asdf sfdaf"
+                />
+        </RelativeLayout>
+
+        <LinearLayout style="@style/base_wrap_height.vertical.fullText">
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/base_double_wrap.address"
+                tools:text="address infor 234"
+                />
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/base_double_wrap.time"
+                tools:text="monday aug 3, 2194"
+                />
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/base_double_wrap.description"
+                tools:text="asdfaslonapfn pnasjnf pasjnd   apksijdnfp asnj fpajsnfpajnspfnj4"
+                />
+        </LinearLayout>
     </LinearLayout>
-</RelativeLayout>
+</ScrollView>
