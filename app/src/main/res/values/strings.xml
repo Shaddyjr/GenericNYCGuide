@@ -6,7 +6,7 @@
     <string name="category_foods_title">foods</string>
     <string name="category_sites_title">sites</string>
 
-    <string name="address">Address: %1$s</string>
-    <string name="time">Time: %1$s</string>
-    <string name="description">Description: : %1$s</string>
+    <string name="address">%1$s</string>
+    <string name="time">When: %1$s</string>
+    <string name="description">Description: %1$s</string>
 </resources>
