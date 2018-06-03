@@ -49,12 +49,12 @@ public class FullLocationActivity extends AppCompatActivity {
         // adding content
         image.setImageResource(location_imageResourceID);
         name.setText(location_name);
-        address.setText(String.format(getResources().getString(R.string.address), location_address));
-        description.setText(String.format(getResources().getString(R.string.description), location_description));
+        address.setText(String.format(getResources().getString(R.string.display_address), location_address));
+        description.setText(String.format(getResources().getString(R.string.display_description), location_description));
         this.setTitle(location_locationType.toUpperCase());
 
         if(location_time!=null){
-            time.setText(String.format(getResources().getString(R.string.time), location_time));
+            time.setText(String.format(getResources().getString(R.string.display_time), location_time));
         }else{
             time.setVisibility(View.GONE);
         }

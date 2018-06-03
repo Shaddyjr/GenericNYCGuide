@@ -38,7 +38,28 @@ public class Location {
         // stock NYC images
 
         int[] imageIDs = {
-                R.drawable.output
+                R.drawable.nyc_1,
+                R.drawable.nyc_2,
+                R.drawable.nyc_3,
+                R.drawable.nyc_4,
+                R.drawable.nyc_5,
+                R.drawable.nyc_6,
+                R.drawable.nyc_7,
+                R.drawable.nyc_8,
+                R.drawable.nyc_9,
+                R.drawable.nyc_10,
+                R.drawable.nyc_11,
+                R.drawable.nyc_12,
+                R.drawable.nyc_13,
+                R.drawable.nyc_14,
+                R.drawable.nyc_15,
+                R.drawable.nyc_16,
+                R.drawable.nyc_17,
+                R.drawable.nyc_18,
+                R.drawable.nyc_19,
+                R.drawable.nyc_20,
+                R.drawable.nyc_21,
+                R.drawable.nyc_22,
         };
 
         int index = new Random().nextInt(imageIDs.length);

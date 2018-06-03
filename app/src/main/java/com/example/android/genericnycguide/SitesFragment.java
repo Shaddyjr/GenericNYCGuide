@@ -27,21 +27,21 @@ public class SitesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         Resources res = getResources();
-        locations.add(new Location(res.getStringArray(R.array.FrauncesTavern),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.BowlingGreen),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.WallStreet),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.CastleClinton),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.SchermerhornRow),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.FederalHall),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.TrinityChurch),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.IndiaHouse),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.StockExchange),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.CustomHouse),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.InternationalBuilding),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.LibertyPlaza),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.NationalMonument),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.byGehry),getString(R.string.site),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.TradeCenter),getString(R.string.site),R.drawable.output));
+        locations.add(new Location(res.getStringArray(R.array.FrauncesTavern),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.BowlingGreen),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.WallStreet),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.CastleClinton),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.SchermerhornRow),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.FederalHall),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.TrinityChurch),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.IndiaHouse),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.StockExchange),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.CustomHouse),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.InternationalBuilding),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.LibertyPlaza),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.NationalMonument),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.byGehry),getString(R.string.site),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.TradeCenter),getString(R.string.site),R.drawable.nyc_1));
         // setting up list adapter
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations);
 

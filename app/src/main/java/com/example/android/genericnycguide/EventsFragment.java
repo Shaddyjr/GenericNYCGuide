@@ -27,26 +27,26 @@ public class EventsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         Resources res = getResources();
-        locations.add(new Location(res.getStringArray(R.array.Free),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Party),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Discovery),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Museum),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Pitbull),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.The),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Egg),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Bryant),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.FIGMENT),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.PrideFest),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Titanic),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Nathans),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Backstreet),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.FAD),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Shakespeare),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.NYC),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Karaoke),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Meditation),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Bar),getString(R.string.event),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.NYRR),getString(R.string.event),R.drawable.output));
+        locations.add(new Location(res.getStringArray(R.array.Free),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Party),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Discovery),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Museum),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Pitbull),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.The),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Egg),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Bryant),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.FIGMENT),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.PrideFest),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Titanic),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Nathans),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Backstreet),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.FAD),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Shakespeare),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.NYC),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Karaoke),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Meditation),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Bar),getString(R.string.event),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.NYRR),getString(R.string.event),R.drawable.nyc_1));
         // setting up list adapter
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations);
 

@@ -26,16 +26,16 @@ public class FoodsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
         Resources res = getResources();
-        locations.add(new Location(res.getStringArray(R.array.Amada),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Augustine),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Cipriani),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Cut),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Delmonicos),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Nobu),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.One),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Osteria),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Schilling),getString(R.string.food),R.drawable.output));
-        locations.add(new Location(res.getStringArray(R.array.Temple),getString(R.string.food),R.drawable.output));
+        locations.add(new Location(res.getStringArray(R.array.Amada),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Augustine),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Cipriani),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Cut),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Delmonicos),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Nobu),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.One),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Osteria),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Schilling),getString(R.string.food),R.drawable.nyc_1));
+        locations.add(new Location(res.getStringArray(R.array.Temple),getString(R.string.food),R.drawable.nyc_1));
 
         // setting up list adapter
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations);

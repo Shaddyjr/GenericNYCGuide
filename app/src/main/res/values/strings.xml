@@ -19,6 +19,10 @@
     <string name="locationType">locationType</string>
     <string name="time">time</string>
 
+    <!--DISPLAY TEXT-->
+    <string name="display_address">%1$s</string>
+    <string name="display_description">Description: %1$s</string>
+    <string name="display_time">When: %1$s</string>
     <!--EVENTS-->
     <string-array name="Free">
         <item>"Free Kayaking at Brooklyn Bridge Park"</item>
